@@ -1,0 +1,306 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first_navbar {
+    background-color: #f5f5f5;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.first_navbar_logo {
+    background-image: url(images.png);
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.first_navbar_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    margin-right: 40px;
+}
+
+
+
+.second_navbar {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.second_navbar_logo {
+    background-image: url(pppp.svg);
+    background-size: cover;
+    width: 55px;
+    height: 50px;
+    margin-top: 1px;
+    margin-left: 40px;
+}
+.second_navbar_text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 593px;
+}
+
+
+.second_navbar_search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+}
+.second_navbar_search_box {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 36px;
+    border-radius: 20px;
+}
+.second_navbar_search_icon {
+    width: 30px;
+    text-align: center;
+}
+.second_navbar_searchBox {
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+
+.third_navbar {
+    height: 74px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.third_navbar_text1 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.third_navbar_text1 p {
+    font-size: 1.2rem;
+}
+.third_navbar_text2 {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.third_navbar_text2 a {
+    font-size: 0.8rem;
+    color: black;
+}
+
+
+.hero_img {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 520px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+
+.herotext {
+    text-align: center;
+    margin-top: 20px;
+}
+.hero_text1 h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.hero_text2 {
+    margin-top: 5px;
+}
+.hero_text2 p {
+    font-size: 1.7rem;
+}
+.hero_text_button {
+    margin-top: 35px;
+}
+.hero_text_button button {
+    height: 45px;
+    width: 140px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+
+
+.box1 {
+    margin-top: 80px;
+}
+.box1_heading {
+    margin-left: 40px;
+}
+.box1_img {
+    background-image: url(nike-just-do-it.jfif);
+    background-size: cover;
+    height: 310px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+
+}
+
+
+
+.box2 {
+    margin-top: 80px;
+}
+.box2_img {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2_img_part {
+    margin-top: 30px;
+    height: 100%;
+}
+.box2_img_part1 {
+    background-size: cover;
+    height: 500px;
+    width: 450px;
+}
+.box2_img_part_text {
+    margin-top: 30px;
+}
+.box2_img_part_text p {
+    font-size: 1.3rem;
+}
+
+
+.overlay {
+    display: flex;
+    align-items: flex-end;
+}
+.overLay_button {
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+.overLay_button button {
+    height: 40px;
+    width: 120px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.animation:hover {
+    background-color: #e3e3e9;
+}
+
+
+.overlay_part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.overlay_part2_text1 {
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.overlay_part2_text1 p {
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.overlay_part2_text2 {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.overlay_part2_text2 h3 {
+    color: white;
+    font-size: 1.4rem;
+}
+ .overlay_part2_button button {
+    height: 40px;
+    width: 120px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 60px;
+    margin-top: 30px;
+ }
+
+
+
+
+
+.footer_part1_text1 p {
+    font-size: 1.5rem;
+}
+ .footer_part1_text1 ol li {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    margin-top: 16px;
+ }
+ .footer_part1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+ }
+ .footer_part1 li {
+    list-style: none;
+    gap: 200px;
+ }
+ .footer_part1 a {
+    text-decoration: none;
+    color: #707072;
+ }
+
+
+
+
+
+ .footer_part2 {
+    background-color: green;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+ }
+
+ .footer_part3 {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 40px;
+ }
+ .footer_part3 select {
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    color: #707072;
+ }
+ .footer_part3 p {
+    font-size: 1rem;
+    color: #707072;
+ }
+ .line {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+ }
